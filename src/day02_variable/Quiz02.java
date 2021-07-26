@@ -6,7 +6,7 @@ public class Quiz02 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String name;
-		int kor, eng, mat;
+		int kor, eng, mat, sum;
 		
 		System.out.print("당신의 이름은 무엇입니까? ");
 		name = sc.next();
@@ -27,6 +27,8 @@ public class Quiz02 {
 		System.out.println("============");
 		System.out.println("합 계 : " + (kor + eng+ mat));
 		System.out.println("===========");
+		sum = kor + eng + mat;
+		System.out.println("합 계 : " + sum);
 		
 		sc.close();
 	}
